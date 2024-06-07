@@ -1,11 +1,12 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import PieChartDonut from "./src/components/customs/PieChartDonut";
+import VideoCompoent from "./src/components/customs/VideoCompoent";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>tôi là phạm thanh sơn</Text>
-      <StatusBar style="auto" />
+      <PieChartDonut />
+      <VideoCompoent />
     </View>
   );
 }

@@ -1,0 +1,5 @@
+    npx expo install react-native-svg
+    npx expo install expo-linear-gradient
+    npm i react-native-gifted-charts
+    npm i react-native-webview
+    npm i react-native-youtube-iframe
