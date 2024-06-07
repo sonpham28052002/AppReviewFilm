@@ -9,7 +9,19 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#010d3d",
+      "waitOnLaunch": "true",
+      "rotateOut": "true",
+      "animation": "rotate",
+      "android": {
+        "resizeMode": "contain",
+        "backgroundColor": "#010d3d",
+        "show": "true",
+        "waitOnLaunch": "true",
+        "fadeIn": "true",
+        "animation": "fade",
+        "delay": 10000
+      }
     },
     "ios": {
       "supportsTablet": true
@@ -17,11 +29,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#010d3d"
+      },
+      "package": "com.sonpham28052002.AppReviewFilm"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26ca0009-555e-4223-a4b4-72d81749be26"
+      }
     }
   }
 }
