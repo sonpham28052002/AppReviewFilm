@@ -3,3 +3,5 @@
     npm i react-native-gifted-charts
     npm i react-native-webview
     npm i react-native-youtube-iframe
+    npm install nativewind
+    npm install --save-dev tailwindcss@3.3.2

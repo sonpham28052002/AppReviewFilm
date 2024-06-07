@@ -1,21 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
 import PieChartDonut from "./src/components/customs/PieChartDonut";
 import VideoCompoent from "./src/components/customs/VideoCompoent";
+import { NativeWindStyleSheet } from "nativewind";
 
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View className=" flex flex-col justify-center items-center h-full">
       <PieChartDonut />
       <VideoCompoent />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
