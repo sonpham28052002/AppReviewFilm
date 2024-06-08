@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import PieChartDonut from "./src/components/customs/PieChartDonut";
 import VideoCompoent from "./src/components/customs/VideoCompoent";
 import { NativeWindStyleSheet } from "nativewind";
@@ -11,6 +11,7 @@ export default function App() {
     <View className=" flex flex-col justify-center items-center h-full">
       <PieChartDonut />
       <VideoCompoent />
+      <Text>{`${process.env.EXPO_PUBLIC_API_KEY}`}</Text>
     </View>
   );
 }
